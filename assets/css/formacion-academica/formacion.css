@@ -1,0 +1,12 @@
+.formacion{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: #0e0e0e;
+}
+
+@media screen and (max-width: 768px){
+    .formacion{
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+    }
+}

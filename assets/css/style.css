@@ -1,0 +1,27 @@
+body{
+    font-family: Inter, cursive;
+    background-color: #F2F5F7;
+    display: grid;
+    grid-template-areas: "header"
+                         "contenido"
+                         "rodapie";
+
+   grid-template-columns: 100%;
+   grid-template-rows: auto auto auto;
+}
+
+.header{
+    grid-area: header;
+}
+
+.contenido{
+    grid-area: contenido;
+}
+
+.footer{
+    grid-area: rodapie;
+}
+
+:root{
+    --color-logo:#fdfdfd;
+}

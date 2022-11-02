@@ -1,0 +1,26 @@
+.contacto__formulario__boton{
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 1rem 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: 0.01s;
+}
+
+.contacto__formulario__boton:active{
+    scale: 0.9;
+}
+
+.contacto__formulario__boton[disabled]{
+    pointer-events: none;
+  }
+
+@media screen and (max-width: 768px){
+    .contacto__formulario__boton{
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,11 @@
+.contacto__titulo{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.contacto__titulo__sub{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 100;
+}

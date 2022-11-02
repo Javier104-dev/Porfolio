@@ -1,0 +1,12 @@
+.sobre-mi__contenido{
+    text-align: justify;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .sobre-mi__contenido{
+        width: 90%;
+    }
+}

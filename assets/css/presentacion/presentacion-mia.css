@@ -1,0 +1,9 @@
+.presentacion__mia{
+    margin-right: 5rem;
+}
+
+@media screen and (max-width: 1024px){
+    .presentacion__mia{
+        margin-right: 0;
+    }
+}

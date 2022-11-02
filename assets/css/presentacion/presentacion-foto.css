@@ -1,0 +1,18 @@
+.presentacion__foto--imagen{
+    border-radius: 100%;
+    height: auto;
+    width: 350px;
+}
+
+@media screen and (max-width: 1024px){
+    .presentacion__foto--imagen{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .presentacion__foto--imagen{
+        margin-bottom: 2rem;
+        width: 220px;
+    }
+}

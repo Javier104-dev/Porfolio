@@ -1,0 +1,9 @@
+.skills__tarjeta__iconos{
+    width: 100px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.skills__tarjeta__iconos:hover{
+    scale: 1.2;
+}

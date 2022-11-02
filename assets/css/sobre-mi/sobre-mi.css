@@ -1,0 +1,12 @@
+.sobre-mi{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #0e0e0e;
+}
+
+@media screen and (max-width: 768px){
+    .sobre-mi{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,14 @@
+.contacto{
+    background: #0e0e0e;
+}
+
+.contacto__bloque{
+    color: #fdfdfd;
+    padding: 6rem 0;
+}
+
+@media screen and (max-width: 768px){
+    .contacto__bloque{
+        padding: 3rem 0;
+    }
+}

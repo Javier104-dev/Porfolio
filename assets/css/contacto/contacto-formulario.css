@@ -1,0 +1,29 @@
+.contacto__formulario{
+    margin-top: 1.5rem;
+}
+
+.contacto__formulario__div{
+    margin-bottom: 2rem;
+}
+
+.contacto__formulario__nombre{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.contacto__formulario__campo{
+    display: block;
+    box-sizing: border-box; /*IMPORTANTE AL PONER EL 100% EN RESPONSIVO*/
+    width: 50%;
+    padding: 0.5rem 0.2rem;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 768px){
+    .contacto__formulario__campo{
+        width: 100%;
+    }
+}

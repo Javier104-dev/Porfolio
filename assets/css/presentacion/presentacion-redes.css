@@ -1,0 +1,17 @@
+.presentacion__mia__redes{
+    display: flex;
+}
+
+.presentacion__mia__red{
+    padding-right: 2rem;
+}
+
+.presentacion__mia__red:last-child{
+    padding-right: 0rem;
+}
+
+@media screen and (max-width: 768px){
+    .presentacion__mia__redes{
+        justify-content: center;
+    }
+}

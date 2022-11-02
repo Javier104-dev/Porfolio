@@ -1,0 +1,30 @@
+.menu-navegacion__item{
+    margin-left: 3rem;
+    padding: 0.5rem 0;
+    text-decoration: none;
+}
+
+.menu-navegacion__item a{
+    text-decoration: none;
+    color: var(--color-logo);
+}
+
+.menu-navegacion__item:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    scale: 1.1;
+    transition: 0.1s;
+}
+
+.menu-navegacion__item:first-child{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768px){
+    .menu-navegacion__item{
+        margin-left: 0;
+    }
+
+    .menu-navegacion__item, .menu-navegacion__item:first-child{
+        border: none;
+    }
+}

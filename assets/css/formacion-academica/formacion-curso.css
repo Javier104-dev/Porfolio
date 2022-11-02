@@ -1,0 +1,18 @@
+.formacion__curso{
+    padding-right: 4rem;
+    text-align: start;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 1024px){
+    .formacion__curso{
+        padding-right: 0rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .formacion__curso{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}

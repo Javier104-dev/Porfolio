@@ -1,0 +1,18 @@
+.footer__contenido__redes:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:none
+}
+
+.footer__contenido__redes:nth-child(3){
+    margin: auto;
+    border-left: 2px solid rgb(56, 56, 56);
+    padding-left: 5rem;
+}
+
+@media screen and (max-width: 768px){
+    .footer__contenido__redes:nth-child(3){
+        padding-left: 1rem;
+    }
+}

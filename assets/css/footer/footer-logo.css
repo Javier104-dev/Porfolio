@@ -1,0 +1,16 @@
+.footer__contenido__logo{
+    font-weight: 400;
+    margin: auto;
+}
+
+.footer__logo__titulo{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.footer__logo__subti{
+    letter-spacing:0.1rem;
+    font-weight: 400;
+    text-align: center;
+}

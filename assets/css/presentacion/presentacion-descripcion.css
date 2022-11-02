@@ -1,0 +1,25 @@
+.presentacion__mia__descripcion{
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 3rem;
+    color: #fdfdfd;
+}
+
+.presentacion__mia__descripcion span{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1024px){
+    .presentacion__mia__descripcion{
+        padding-right: 1rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .presentacion__mia__descripcion{
+        padding-right: 0rem;
+        line-height: 2rem;
+    }
+}

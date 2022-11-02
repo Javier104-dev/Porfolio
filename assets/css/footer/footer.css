@@ -1,0 +1,41 @@
+.rodapie{
+    background: black;
+    border-top: 1px solid rgb(20, 20, 20);
+    box-shadow: 0 -3px 3px rgb(0 0 0 / 25%);
+    color: #fdfdfd;
+}
+
+.footer{
+    padding: 1rem 0;
+}
+
+.footer__contenido{
+    display: grid;
+    grid-template-areas: "titulo link redes";
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-row: auto;
+}
+
+.footer__contenido--logo{
+    grid-area: titulo;
+}
+
+.footer__contenido--redes{
+    grid-area: link;
+}
+
+.footer__contenido--contenido{
+    grid-area: redes;
+}
+
+@media screen and (max-width: 768px){
+    .footer__contenido--logo{
+        display: none;
+    }
+
+    .footer__contenido{
+        grid-template-areas: "link redes";
+        grid-template-columns: 50% 50%;
+        grid-row: auto;
+    }
+}

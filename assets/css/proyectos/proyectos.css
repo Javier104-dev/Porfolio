@@ -1,0 +1,40 @@
+.proyectos{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: #060606;
+    display: grid;
+    grid-template-areas: "proyectos__titulo"
+                         "proyecto--primero"
+                         "proyecto--segundo";
+    
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 3rem;
+}
+
+.proyectos__titulo{
+    grid-area: proyectos__titulo;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 5rem;
+    color: #808080;
+}
+
+.proyecto--primero{
+    grid-area: proyecto--primero;
+}
+
+.proyecto--segundo{
+    grid-area: proyecto--segundo;
+}
+
+@media screen and (max-width: 768px){
+    .proyectos{
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    .proyectos__titulo{
+        padding-bottom: 0rem;
+    }
+}
