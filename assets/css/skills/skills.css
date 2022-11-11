@@ -1,7 +1,7 @@
 .skills{
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background: #060606;
+    background: var( --color-fondo-oscuro);
 }
 
 @media screen and (max-width: 768px){

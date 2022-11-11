@@ -15,7 +15,7 @@
     border-radius: 4px;
     padding: 0.5rem;
     margin-right: 0.5rem;
-    color: #fdfdfd;
+    color: var(--color-letra);
 }
 
 .proyecto__descripcion__boton:active{

@@ -1,5 +1,5 @@
 .footer__contenido__item a{
-    color: #fdfdfd;
+    color: var(--color-letra);
     text-decoration: none;
 }
 

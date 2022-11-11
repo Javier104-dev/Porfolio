@@ -2,7 +2,7 @@
     font-size: 1.3rem;
     font-weight: 100;
     line-height: 3rem;
-    color: #fdfdfd;
+    color: var(--color-letra);
 }
 
 .presentacion__mia__descripcion span{

@@ -1,7 +1,7 @@
 .proyectos{
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background: #060606;
+    background: var(--color-fondo-oscuro);
     display: grid;
     grid-template-areas: "proyectos__titulo"
                          "proyecto--primero"
@@ -18,7 +18,7 @@
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 5rem;
-    color: #808080;
+    color: var(--color-titulo);
 }
 
 .proyecto--primero{

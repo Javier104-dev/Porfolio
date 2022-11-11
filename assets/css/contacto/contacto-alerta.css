@@ -1,10 +1,10 @@
 .contacto___alerta{
     margin-top: 1rem;
-    color: #db4242;;
+    color: var(--color-alerta);
     font-size: 14px;
     font-weight: 100;
 }
 
 .contacto__formulario__error{
-    border: 2px solid #db4242;
+    border: 2px solid var(--color-alerta);
 }

@@ -1,9 +1,9 @@
 .contacto{
-    background: #0e0e0e;
+    background: var(--color-fondo);
 }
 
 .contacto__bloque{
-    color: #fdfdfd;
+    color: var(--color-letra);
     padding: 6rem 0;
 }
 

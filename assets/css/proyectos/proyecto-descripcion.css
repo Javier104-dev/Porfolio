@@ -3,7 +3,7 @@
     line-height: 1.4;
     display: flex;
     flex-direction: column;
-    color: #fdfdfd;
+    color: var(--color-letra);
     text-align: justify;
     font-weight: 100;
 }
@@ -12,14 +12,14 @@
     font-size: 2.5rem;
     width: 100%;
     margin-bottom: 0.5rem;
-    color: #fdfdfd;
+    color: var(--color-letra);
 }
 
 .proyecto__descripcion__lista{
     font-size: 1rem;
     margin: 2rem 0 2rem 2rem;
     list-style: disc;
-    color: #fdfdfd;
+    color: var(--color-letra);
     line-height: 1.5rem;
 }
 

@@ -2,6 +2,6 @@
     text-align: center;
     font-size: 1.8rem;
     font-weight: bold;
-    color: #808080;
+    color: var(--color-titulo);
     margin-bottom: 2rem;
 }

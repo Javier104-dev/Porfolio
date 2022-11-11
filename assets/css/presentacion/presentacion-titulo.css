@@ -2,7 +2,7 @@
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.3;
-    color: #808080;
+    color: var(--color-titulo);
     padding-bottom: 3rem;
 }
 

@@ -2,6 +2,12 @@
     display: flex;
     text-decoration: none;
     align-items: center;
-    color: #d6d6d6;
-    padding-top: 3rem;
+    color: var(--color-letra);
+    border-left: 2px solid var(--color-letra);
+    padding-left: 0.2rem;
+}
+
+.presentacion__mia__link:hover{
+    scale: 1.1;
+    transition: 0.1s;
 }

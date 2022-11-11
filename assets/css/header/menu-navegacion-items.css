@@ -6,17 +6,17 @@
 
 .menu-navegacion__item a{
     text-decoration: none;
-    color: var(--color-logo);
+    color: var(--color-letra);
 }
 
 .menu-navegacion__item:hover{
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid var(--color-navegacion-subrayado);
     scale: 1.1;
     transition: 0.1s;
 }
 
 .menu-navegacion__item:first-child{
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid var(--color-navegacion-subrayado);
 }
 
 @media screen and (max-width: 768px){

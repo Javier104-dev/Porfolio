@@ -1,5 +1,5 @@
 .presentacion{
-    background: #060606;
+    background: var(--color-fondo-oscuro);
     display: flex;
     flex-direction: row-reverse;
     padding-top: 6rem;
